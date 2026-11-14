@@ -9,32 +9,26 @@ Peirro is a custom, voice-controlled Python assistant designed for seamless desk
 * **Modular Architecture:** Clean separation of drivers, tools, and workspace agents.
 
 
-##🚀 Getting Started
+## 🚀 Getting Started
 
----
-
-1. Clone the Repository
+* **1. Clone the Repository**
 git clone [https://github.com/Rookieabbas/project_PEIRRO.git](https://github.com/Rookieabbas/project_PEIRRO.git)
 cd project_PEIRRO
---
---
-2. Install Dependencies
+
+* **2. Install Dependencies**
 Make sure you have Python installed, then run:
 pip install -r requirements.txt
---
---
-3. Configure Your Environment Variables
+
+* **3. Configure Your Environment Variables**
 Create a .env file in the root directory of your project and add your Groq API key:
 Code snippet
 GROQ_API_KEY=your_actual_groq_api_key_here
---
---
-4. Run Peirro
+
+* **4. Run Peirro**
 Start the assistant by running the main script:
 python peirro.py
---
---
-⌨️ Usage
+
+* **⌨️ Usage**
 Press Ctrl + I or Ctrl + Space to trigger listening mode.
 Speak your command, and let Peirro handle the rest!
 
