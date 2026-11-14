@@ -8,26 +8,6 @@ Peirro is a custom, voice-controlled Python assistant designed for seamless desk
 * **Visual State Indicators:** Real-time visual feedback reflecting the assistant's current operational state.
 * **Modular Architecture:** Clean separation of drivers, tools, and workspace agents.
 
----
-
-## 📂 Project Structure
-```text
-ProjectPeirro/
-├── drivers/
-│   ├── os_operator.py      # OS-level control scripts
-│   ├── uia_vision.py       # UI automation / vision support
-│   └── voice_engine.py     # Core audio capture & processing
-├── tools/
-│   ├── data_scientist.py   # Data processing utilities
-│   └── dev_sandbox.py      # Execution sandbox
-├── vault/                  # Local config and settings
-│   ├── personality_profile.json
-│   └── settings.json
-├── workspace/              # Custom workspace agents
-├── peirro.py               # Main entry point script
-├── requirements.txt        # Python dependencies
-└── .env                    # Environment variables (API keys - DO NOT COMMIT)
----
 
 ##🚀 Getting Started
 
@@ -57,3 +37,24 @@ python peirro.py
 ⌨️ Usage
 Press Ctrl + I or Ctrl + Space to trigger listening mode.
 Speak your command, and let Peirro handle the rest!
+
+---
+
+## 📂 Project Structure
+```text
+ProjectPeirro/
+├── drivers/
+│   ├── os_operator.py      # OS-level control scripts
+│   ├── uia_vision.py       # UI automation / vision support
+│   └── voice_engine.py     # Core audio capture & processing
+├── tools/
+│   ├── data_scientist.py   # Data processing utilities
+│   └── dev_sandbox.py      # Execution sandbox
+├── vault/                  # Local config and settings
+│   ├── personality_profile.json
+│   └── settings.json
+├── workspace/              # Custom workspace agents
+├── peirro.py               # Main entry point script
+├── requirements.txt        # Python dependencies
+└── .env                    # Environment variables (API keys - DO NOT COMMIT)
+---
