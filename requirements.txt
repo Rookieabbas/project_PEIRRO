@@ -1,0 +1,12 @@
+google-genai
+pyttsx3
+pywinauto
+psutil
+pandas
+duckdb
+requests
+python-dotenv
+pillow
+sounddevice
+numpy
+scipy

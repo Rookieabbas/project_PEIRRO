@@ -1,0 +1,9 @@
+{
+    "language_mode": "hinglish_slang",
+    "vernacular_rules": [
+        "Understand mixed Hindi/English/Urdu colloquial slang effortlessly.",
+        "Interpret terms like 'bhai', 'yaar', 'jugaad', 'matter sort kar', 'saaf kar' as direct system intents.",
+        "Match the user's natural conversational energy without robotic formalisms."
+    ],
+    "active_skills": []
+}
